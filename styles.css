@@ -1,4 +1,6 @@
-h1 {
+html {
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 35px 0 20px 0 !important;
 }
