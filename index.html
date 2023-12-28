@@ -1,229 +1,279 @@
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
 
-<a href="destination.html">
-    <button>Remote Access Request</button>
-</a>
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-<h1>1 - SETS</h1>
-<h3>A set is a well-defined collection of objects.
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global">
+            <p>Global</p>
+          </a>
+          <button class="header--cta cta">Hire Us</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Works</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire us</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Your next<br>interactive<br>experience</h1>
+                <button class="cta">Hire Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>Metiew &amp; Smith</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Fantasy interactive</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Paul &amp; shark</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected work</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-victory.jpg" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Metiew &amp; Smith</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Alex Nowak</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>We<br>believe in<br>passionate<br>people</h2>
+                <a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3>Winners</h3>
+                </a>
+                <a href="#0">
+                  <h3>Philosophy</h3>
+                </a>
+                <a href="#0">
+                  <h3>History</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Pawia 5, 31-154 Kraków, Poland</p>
+                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                    <a href="tel:+148126287560">+48 12 628 75 60</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="#0">Bēhance</a></li>
+                    <li><a href="#0">dribbble</a></li>
+                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>You want us to do</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      App Design
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Graphic Design
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Motion Design
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      UX Design
+                    </label>
+                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Webdesign
+                    </label>
+                    <input id="opt-6" type="checkbox" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Marketing
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Works</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Hire us</li>
+  </ul>
+</div>
 
-    A set which does not contain any element is called empty set.
-    A set which consists of a definite number of elements is called finite set, otherwise, the set is called infinite set.
-    Two sets A and B are said to be equal if they have exactly the same elements.
-    A set A is said to be subset of a set B, if every element of A is also an element of B. Intervals are subsets of R.
-    The union of two sets A and B is the set of all those elements which are either in A or in B.
-    The intersection of two sets A and B is the set of all elements which are common. The difference of two sets A and B in this order is the set of elements which belong to A but not to B.
-    The complement of a subset A of universal set U is the set of all elements of U which are not the elements of A.
-
-For any two sets A and B,
-(A∪B)′=A′∩B′and(A∩B)′=A′∪B′
-(A∪B)′=A′∩B′and(A∩B)′=A′∪B′</h3>
-<h1>2 - RELATIONS AND FUNCTIONS</h1>
-
-    <h3>Ordered pair A pair of elements grouped together in a particular order.
-    Cartesian product A × B of two sets A and B is given byA×B=(a,b):a∈A,b∈BA×B=(a,b):a∈A,b∈B
-    In particular R×R=(x,y):x,y∈RR×R=(x,y):x,y∈R  and R×R×R=(x,y,z):x,y,z∈RR×R×R=(x,y,z):x,y,z∈R
-    If (a, b) = (x, y), then a = x and b = y.
-    If n(A) = p and n(B) = q, then n(A × B) = pq.
-    A × φ = φ
-    In general, A × B ≠ B × A.
-    Relation A relation R from a set A to a set B is a subset of the cartesian product A × B obtained by describing a relationship between the first element x and the second element y of the ordered pairs in A × B.
-    The image of an element x under a relation R is given by y, where (x, y) ∈ R,
-    The domain of R is the set of all first elements of the ordered pairs in a relation R.
-    The range of the relation R is the set of all second elements of the ordered pairs in a relation R.
-    Function A function f from a set A to a set B is a specific type of relation for which every element x of set A has one and only one image y in set B. We write f: A→B, where f(x) = y.
-    A is the domain and B is the codomain of f.
-    The range of the function is the set of images.
-    A real function has the set of real numbers or one of its subsets both as its domain and as its range.
-    Algebra of functions For functions f : X → R and g : X → R, we have
-    (f + g) (x) = f (x) + g(x), x ∈ X
-    (f – g) (x) = f (x) – g(x), x ∈ X
-    (f.g) (x) = f (x) .g (x), x ∈ X
-    (kf) (x) = k ( f (x) ), x ∈ X, where k is a real number.</h3>
-
-<h1>3 - TRIGONOMETRIC FUNCTIONS</h1>
-
-    <h3>If in a circle of radius r, an arc of length l subtends an angle of θ radians, then l = r θ
-    Radian=π180×DegreeRadian=180π​×Degree
-    Degree=180π×RadianDegree=π180​×Radian
-    cos2x+sin2x=1cos2x+sin2x=1
-    1+tan2x=sec2x1+tan2x=sec2x
-    1+cot2x=cosec2x1+cot2x=cosec2x
-    cos(2nπ+x)=cosxcos(2nπ+x)=cosx
-    sin(2nπ+x)=sinxsin(2nπ+x)=sinx
-    sin(−x)=−sin(x)sin(−x)=−sin(x)
-    cos(−x)=cos(x)cos(−x)=cos(x)
-    cos(x+y)=cos(x)cos(y)−sin(x)sin(y)cos(x+y)=cos(x)cos(y)−sin(x)sin(y)
-    cos(x−y)=cos(x)cos(y)+sin(x)sin(y)cos(x−y)=cos(x)cos(y)+sin(x)sin(y)
-    cos(π2−x)=sin(x)cos(2π​−x)=sin(x)
-    sin(π2−x)=cos(x)sin(2π​−x)=cos(x)
-    sin(x+y)=sin(x)cos(y)+cos(x)sin(y)sin(x+y)=sin(x)cos(y)+cos(x)sin(y)
-    sin(x−y)=sin(x)cos(y)−cos(x)sin(y)sin(x−y)=sin(x)cos(y)−cos(x)sin(y)
-    cos(π2+x)=−sin(x)cos(2π​+x)=−sin(x)</h3>
-
-<h1>4 - COMPLEX NUMBERS AND QUADRATIC EQUATIONS</h1>
-<h3>A number of the form a + ib, where a and b are real numbers, is called a complex number, a is called the real part and b is called the imaginary part of the complex number. Let z1 = a + ib and z2 = c + id. Then
-(i) z1 + z2 = (a + c) + i (b + d)
-(ii) z1 z2 = (ac – bd) + i (ad + bc)
-For any non-zero complex number z = a + ib (a ≠ 0, b ≠ 0), there exists the complex number
-aa2+b2+i−ba2+b2)=−sin(x)
-a2+b2a​+ia2+b2−b​)=−sin(x)
-denoted by z−1z−1 called the implicative inverse of z such that
-(a+ib)aa2+b2+i−ba2+b2)=1+i0=1
-(a+ib)a2+b2a​+ia2+b2−b​)=1+i0=1
-For any integer k,
-i4k=1,i4k+1=i,i4k+2=−1,i4k+3=−i
-i4k=1,i4k+1=i,i4k+2=−1,i4k+3=−i
-The conjugate of the complex number z = a + ib, denoted by z‾z , is given by   z‾=a−ibz=a−ib .</h3>
-<h1>5 - LINEAR INEQUALITIES</h1>
-
-    <h3>Two real numbers or two algebraic expressions related by the symbols <,>,≤or≥<,>,≤or≥ form an inequality.
-    Equal numbers may be added to (or subtracted from ) both sides of an inequality.
-    Both sides of an inequality can be multiplied (or divided ) by the same positive number. But when both sides are multiplied (or divided) by a negative number, then the inequality is reversed.
-    The values of x, which make an inequality a true statement, are called solutions of the inequality.
-    To represent x<a(or x>a)x<a(or x>a) on a number line, put a circle on the number a and dark line to the left (or right) of the number a.
-    To represent x ≤ a (or x ≥ a) on a number line, put a dark circle on the number a and dark the line to the left (or right) of the number x.</h3>
-
-<h1>6 - PERMUTATIONS AND COMBINATIONS</h1>
-<h3>Fundamental principle of counting If an event can occur in m different ways, following which another event can occur in n different ways, then the total number of occurrence of the events in the given order is m × n. The number of permutations of n different things taken r at a time, where repetition is not allowed, is denoted by  nPrnPr​ is given by nPr=n!(n−r)!nPr​=(n−r)!n!​where 
-p1​!p2​!...pk​!n!​
-The number of combinations of n different things taken r at a time, denoted bynCrnCr​ is given by (UNABLE TO SHOW)</h3>
-<h1>SKIPPING NUMBER 7 DUE TO JAVASCRIPT ERROR</h1>
-<h1>8 - SEQUENCES AND SERIES</h1>
-<h3>By a sequence, we mean an arrangement of number in definite order according to some rule. Also, we define a sequence as a function whose domain is the set of natural numbers or some subsets of the type  1,2,3,....k1,2,3,....k . A sequence containing a finite number of terms is called a finite sequence. A sequence is called infinite if it is not a finite sequence. Let a1, a2, a3, ... be the sequence, then the sum expressed as a1 + a2 + a3 + ... is called series. A series is called finite series if it has got finite number of terms. A sequence is said to be a geometric progression or G.P., if the ratio of any term to its preceding term is same throughout. This constant factor is called the common ratio. Usually, we denote the first term of a G.P. by a and its common ratio by r. The general or the nthnth term of GP is given by
-an=arn−1
-an​=arn−1
-. The sum S_n of the first n terms of GP is given by
-Sn=a(an−1)r−1ora(1−rn)1−r, if r≠1
-Sn​=r−1a(an−1)​or1−ra(1−rn)​, if r=1
-. The geometric mean (G.M.) of any two positive numbers a and b is given by
-ab
-ab
-​
-. i.e., the sequence a, G, b is G.P.</h3>
-<h1>9 - STRAIGHT LINES</h1>
-<h3>Slope (m) of a non-vertical line passing through the points (x1, y1) and (x2, y2) is given by
-m=y2−y1x2−x1=y1−y2x1−x2,x1≠x2
-m=x2−x1y2−y1​=x1−x2y1−y2​,x1=x2
-If a line makes an angle α with the positive direction of x-axis, then the slope of the line is given by
-m=tanα,α≠90°
-m=tanα,α=90°
-Slope of horizontal line is zero and slope of vertical line is undefined. An acute angle (say θ) between lines L1 and L2 with slopes m1 and m2 is given by
-tanθ=∣m2−m11+m1m2∣,1+m1m2≠0
-tanθ=∣1+m1​m2​m2​−m1​​∣,1+m1​m2​=0
-
-    Two lines are parallel if and only if their slopes are equal.
-    Two lines are perpendicular if and only if product of their slopes is -1.
-    Three points A, B and C are collinear, if and only if slope of AB = slope of BC.
-
-Equation of the horizontal line having distance a from the x-axis is
-either y=a or y=−a
-either y=a or y=−a
-Equation of the vertical line having distance b from the y-axis is
-either x=b or x=−b
-either x=b or x=−b
-The point (x, y) lies on the line with slope m and through the fixed point(x0,y0)(x0​,y0​) , if and only if its coordinates satisfy the equation
-y−y0=m(x−x0).
-y−y0​=m(x−x0​).
-Equation of the line passing through the points (x1, y1) and (x2, y2) is given by
-y−y1=y2−y1x2−x1(x−x1)
-y−y1​=x2​−x1​y2​−y1​​(x−x1​)
-The point (x, y) on the line with slope m and y-intercept c lies on the line if and only if y = mx + c.
-If a line with slope m makes x-intercept d. Then equation of the line is y = m (x - d).
-Equation of a line making intercepts a and b on the x-and y-axis, respectively, is
-xa+yb=1
-ax​+by​=1
-Any equation of the form Ax + By + C = 0, with A and B are not zero, simultaneously, is called the general linear equation or general equation of a line.
-The perpendicular distance (d) of a line Ax + By+ C = 0 from a point (x1, y1) is given by
-d=∣Ax1+By1+C∣A2+B2
-d=A2+B2
-​∣Ax1​+By1​+C∣​
-Distance between the parallel lines Ax + By + C1 = 0 and Ax + By + C2 = 0, is given by
-d=∣C1−C2∣A2+B2
-d=A2+B2
-​∣C1​−C2​∣​</h3>
-<h1>10 - CONIC SECTIONS</h1>
-<h3>A circle is the set of all points in a plane that are equidistant from a fixed point in the plane. The equation of a circle with centre (h, k) and the radius r is
-(x−h)2+(y−k)2=r2
-(x−h)2+(y−k)2=r2
-A parabola is the set of all points in a plane that are equidistant from a fixed line and a fixed point in the plane. The equation of the parabola with focus at (a,0)a>0(a,0)a>0and directrix x = - a is
-y2=4ax
-y2=4ax
-Latus rectum of a parabola is a line segment perpendicular to the axis of the parabola, through the focus and whose end points lie on the parabola.
-
-Length of the latus rectum of the parabola  y2=4axy2=4ax   is 4a. An ellipse is the set of all points in a plane, the sum of whose distances from two fixed points in the plane is a constant.
-The equation of an ellipse with foci on the x-axis is
-x2a2+y2b2=1
-a2x2​+b2y2​=1
-Latus rectum of an ellipse is a line segment perpendicular to the major axis through any of the foci and whose end points lie on the ellipse.
-
-Length of the latus rectum of the ellipse
-x2a2+y2b2=1
-a2x2​+b2y2​=1
-is
-2b2a
-a2b2​
-The eccentricity of an ellipse is the ratio between the distances from the centre of the ellipse to one of the foci and to one of the vertices of the ellipse.
-
-A hyperbola is the set of all points in a plane, the difference of whose distances from two fixed points in the plane is a constant.
-
-The equation of a hyperbola with foci on the x-axis is
-x2a2−y2b2=1
-a2x2​−b2y2​=1
-Latus rectum of hyperbola is a line segment perpendicular to the transverse axis through any of the foci and whose end points lie on the hyperbola.
-
-Length of the latus rectum of the hyperbola
-x2a2−y2b2=1
-a2x2​−b2y2​=1
-is
-2b2a
-a2b2​
-The eccentricity of a hyperbola is the ratio of the distances from the centre of the hyperbola to one of the foci and to one of the vertices of the hyperbola.</h3>
-<h1>11 - INTRODUCTION TO THREE DIMENSIONAL GEOMETRY</h1>
-<h3>In three dimensions, the coordinate axes of a rectangular Cartesian coordinate system are three mutually perpendicular lines. The axes are called the x, y and z-axes. ®The three planes determined by the pair of axes are the coordinate planes, called XY, YZ and ZX-planes. ®The three coordinate planes divide the space into eight parts known as octants. ®The coordinates of a point P in three dimensional geometry is always written in the form of triplet like (x, y, z). Here x, y and z are the distances from the YZ, ZX and XY-planes.
-
-    Any point on x-axis is of the form (x, 0, 0)
-    Any point on y-axis is of the form (0, y, 0)
-    Any point on z-axis is of the form (0, 0, z)
-
-Distance between two points P(x1, y1, z1) and Q (x2, y2, z2) is given by
-(x2−x1)2+(y2−y1)2+(z2−z1)2
-(x2​−x1​)2+(y2​−y1​)2+(z2​−z1​)2</h3>
-​
-<h1>12 - LIMITS AND DERIVATIVES</h1>
-<h3>Limits and derivatives fall under calculus. So let us try to understand calculus first. The expected value of the function as dictated by the points to the left of a point defines the left hand limit of the function at that point. Similarly the right hand limit. Limit of a function at a point is the common value of the left and right hand limits, if they coincide. For a function f and a real number a, lim⁡x→af(x)x→alim​f(x)  and f(a)f(a) may not be same (In fact, one may be defined and not the other one). For functions f and g the following holds:
-lim⁡x→a[f(x)±g(x)]=lim⁡x→af(x)±lim⁡x→ag(x)
-x→alim​[f(x)±g(x)]=x→alim​f(x)±x→alim​g(x)
-lim⁡x→a[f(x)⋅g(x)]=lim⁡x→af(x)⋅lim⁡x→ag(x)
-x→alim​[f(x)⋅g(x)]=x→alim​f(x)⋅x→alim​g(x)
-lim⁡x→a[f(x)g(x)]=lim⁡x→af(x)lim⁡x→ag(x)
-x→alim​[g(x)f(x)​]=x→alim​g(x)x→alim​f(x)​
-Following are some of the standard limits
-lim⁡x→a[xn−anx−a]=nan−1
-x→alim​[x−axn−an​]=nan−1
-lim⁡x→0[sin(x)x]=1
-x→0lim​[xsin(x)​]=1
-lim⁡x→0[1−cos(x)x]=0
-x→0lim​[x1−cos(x)​]=0
-The derivative of a function f at a is defined by
-f′(a)=lim⁡h→0[f(a+h)−f(a)h]
-f′(a)=h→0lim​[hf(a+h)−f(a)​]
-Derivative of a function f at any point x is defined by
-f′(x)=df(x)dx=lim⁡h→0[f(x+h)−f(x)h]
-f′(x)=dxdf(x)​=h→0lim​[hf(x+h)−f(x)​]
-For functions u and v the following holds
-(u±v)′=u′±v′
-(u±v)′=u′±v′
-(uv)′=u′v+uv′
-(uv)′=u′v+uv′
-(uv)′=u′v−uv′v2
-(vu​)′=v2u′v−uv′​
-provided all are provided
-
-Some standard derivatives -
-ddx(xn)=nxn−1
-dxd​(xn)=nxn−1
-ddx(sin(x))=cos(x)
-dxd​(sin(x))=cos(x)
-ddx(cos(x))=−sin(x)
-dxd​(cos(x))=−sin(x)</h3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
