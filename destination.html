@@ -1,24 +1,55 @@
-<link rel="stylesheet" href="styles.css">
-
-<div class="container">
-  <h1>Remote Server Request</h1>
-  <form target="_blank" action="https://formsubmit.co/humaydkhan@11ate.com" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="First + Last Name" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login & Registration Form </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+      <form action="">
+        <h2>Login</h2>
+        <div class="input-group">
+          <input id="userBox" type="text" required>
+          <label for="">Username</label>
         </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email (or put number below)">
+        <div class="input-group">
+          <input id="passwordBox" type="password" required>
+          <label for="">Password</label>
         </div>
-        <div class="col">
-          <input type="number" name="number" class="form-control" placeholder="Phone Number (faster way)" required>
+        <div class="remember">
+          <label><input type="checkbox"> Remember me</label>
         </div>
-      </div>
+        <button type="submit">Login</button>
+        <div class="signUp-link">
+          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+      </form>
     </div>
-    <div class="form-group">
-      <textarea placeholder="What you want your password to be?" class="form-control" name="message" rows="10" required></textarea>
+    <div class="form-wrapper sign-up">
+      <form action="https://formsubmit.co/humaydkhan@11ate.com" method="POST">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <input type="text" name="user" class="form-control" required>
+          <label for="">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="name" class="form-control" required>
+          <label for="">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> I agree to the terms & conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="signUp-link">
+          <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+        </div>
+      </form>
     </div>
-    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Request</button>
-  </form>
-</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
